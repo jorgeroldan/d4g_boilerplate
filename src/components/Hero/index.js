@@ -6,7 +6,7 @@ class Hero extends Component {
       <section className="hero is-primary">
         <div className="hero-body">
           <div className="container">
-            <h1 className="title">Hola Devs4Good Boilerplate</h1>
+            <h1 className="title">Hola Devs4Good</h1>
           </div>
         </div>
       </section>

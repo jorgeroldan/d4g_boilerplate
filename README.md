@@ -1,39 +1,68 @@
-# React Boilerplate
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Introduccioón
+## Available Scripts
 
-Este boilerplate esta generado con [create-react-app](https://github.com/facebook/create-react-app), además de [node-sass](https://github.com/sass/node-sass) para manejar archivos `.scss` para agregar [bulma](https://bulma.io/) y un conjunto de temas llamado [bulmaswatch](https://jenil.github.io/bulmaswatch)
+In the project directory, you can run:
 
-## Como usar el boilerplate?
+### `npm start`
 
-1. Instalar [Node.js 10.15.3](https://nodejs.org/en)
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-2) Descargar o forkear este repositorio con `git clone https://github.com/lndgalante/acamica-boilerplate.git`
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-3. Ir a tu consola y navegar hasta dentro del proyecto `acamica-boilerplate`
+### `npm test`
 
-4) Una vez instalada todas las dependencias dentro ejecutar `npm install && npm run start`
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Primer Proyecto - Hoteles
+### `npm run build`
 
-#### Componentes
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- [Bulma](https://bulma.io/documentation)
-- [Componentes](https://s3.amazonaws.com/resources.acamica.com/contenidos/react/hotels/components.pdf)
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-#### Plataforma para contenido
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- [Log-in](https://www.acamica.com/login)
-- [Introducción](https://www.acamica.com/cursos/491/)
-- [Guías](https://www.acamica.com/cursos/495/)`
+### `npm run eject`
 
-  - El punto 1.1 ya esta hecho con este boilerplate
-  - Seguir los puntos desde el 1.2 hasta el 1.8
-  - El punto 1.7 es el siguiente link donde se realiza la entrega
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- [API con datos de Hoteles](https://wt-8a099f3e7c73b2d17f4e018b6cfd6131-0.sandbox.auth0-extend.com/acamica)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-#### Plataforma para entregar
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-- [Entrega](https://www.acamica.com/clases/10706//entrega)
-# d4g_boilerplate
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
